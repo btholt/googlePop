@@ -1,13 +1,9 @@
 <?
 
-if ($_SERVER['HTTP_HOST'] == "stage-v2.ksl.com")
-    $key = $Google_key = "ABQIAAAAKrYcz86Ziq3DEMj9A-rqARRCuMQwNnedTDmrr1aW3BX2yfoHvBScT5Z0ki_oiKzwxAUop4WNHqIUWw";
-elseif($_SERVER['HTTP_HOST'] == "classifieds.desnews.com")
-    $key = $Google_key = "ABQIAAAAqgqtaIrxPSulOh9D2wbOZxRiSJwCZNWuRTidLrzadyLtPrBEvBQ6FdRFQTPKNW5GiA7dxj-QPThBzA";
-elseif($_SERVER['HTTP_HOST'] == "classifieds.deseretnews.com")
-    $key = $Google_key = "ABQIAAAAqgqtaIrxPSulOh9D2wbOZxSLGJTKabsqCvdUo26v8ueCctCpKxSafHFo49rAagLzSoEcCezjXl0zPQ";
-else //ksl.com key
-    $key = $Google_key = "ABQIAAAAyDfUGKEbnVPeZXbna1ojzxRqjEo0UWv7NML1CvfGrigFhkUudRQwCyLjK_SyhV0WozCnRaFbjkadhg";
+
+//If you want to use a Google Key, uncomment these two lines here and put your key here.
+//Otherwise leave it as it.
+// $key = "YOUR GOOGLE KEY HERE!";
 // $source = "http://maps.googleapis.com/maps/api/js?sensor=false&amp;key=$key";
 $source = "http://maps.googleapis.com/maps/api/js?sensor=false";
 
